@@ -1,0 +1,49 @@
+
+
+body
+{
+   background-color: white;
+   display: flex;
+}
+
+#StarLogo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.SLogo 
+{
+    width: 57.7px;
+    height: 57.7px;
+}
+
+
+
+#island1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 42%;
+    min-inline-size: 460px;
+    height: 365.52px;
+    padding: 25px;
+    margin-top: 120px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: rgb(0, 98, 65)
+
+}
+
+#IslHead
+{
+    width: 412;
+    height: 120;
+    color: White;
+    font-size: 36px;
+    font-family: 'sodoSans', sans-serif;
+    margin-bottom: 250px;
+    
+}
