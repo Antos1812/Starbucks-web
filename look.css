@@ -1,35 +1,28 @@
-
-
-body
-{
-   background-color: white;
-   display: flex;
+body {
+    background-image: radial-gradient(circle, #ffffff,#ebf0ec) ;
+    display: flex;
 }
 
-#StarLogo
-{
+#StarLogo {
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
 
-.SLogo 
-{
+.SLogo {
     width: 57.7px;
     height: 57.7px;
 }
 
-.headT
-{
+.headT {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: flex-start;
-    font-family: 'sudoSans', sans-serif;
+    font-family: 'sodoSans', sans-serif;
     font-size: 22px;
 }
 
-.itemB
-{
+.itemB {
     width: 70px;
     height: 30px;
     margin-left: 30px;
@@ -40,26 +33,74 @@ body
     transition: background-color 0.43s;
 }
 
-.item:hover
-{
-    background-color:black;
+.itemB:hover {
+    background-color: rgba(0, 98, 65, 0.205);
 }
 
 .itemB:last-child {
     margin-right: 0;            
 }
 
-.itemT
-{
+.itemT {
     margin-top: 1px;
 }
 
-.islButton
-{
+.IslandMore {
+    width: 108px;
+    height: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    display: none; 
+}
+
+.IsMore {
+    height: 175px;
+    margin-top: 50px;
+    margin-left: -59px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'sodoSans', sans-serif;
+    font-size: 18px;
+    background-color: rgb(142, 151, 142);
+    box-shadow: 0.4px 0px 11px rgb(142, 151, 142);
+}
+
+.IsMore h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+
+.Islands {
+    box-shadow: 24px 20px 17px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 25%;
+    min-inline-size: 460px;
+    height: 365.52px;
+    padding: 25px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: rgb(0, 98, 65);
+}
+
+.islButton {
     --animateProps: opacity, color, background, border-color;
     --originalWidth: 640px;
     inline-size: 100%;
-    block-size: 48px;
+    block-size: 60px;
     white-space: nowrap;
     border-radius: 100px;
     border: 1px solid white;
@@ -77,77 +118,25 @@ body
     box-shadow: 0.4px 0px 8px rgb(255, 255, 255);
 }
 
-.islButton:hover
-{
+.islButton:hover {
     background-color: rgb(142, 151, 142);
 }
 
-.Islands
-{
-    box-shadow: 24px 20px 17px rgba(0, 0, 0, 0.5);
-}
-
-#island1
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    inline-size: 25%;
-    min-inline-size: 460px;
-    height: 365.52px;
-    padding: 25px;
-    margin-top: 120px;
-    margin-left: 50px;
-    border-radius: 10px;
-    background-color: rgb(0, 98, 65)
-
-}
-
-#island2
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    inline-size: 25%;
-    min-inline-size: 460px;
-    height: 365.52px;
-    padding: 25px;
-    margin-top: 120px;
-    margin-left: 90px;
-    border-radius: 10px;
-    background-color: rgb(0, 98, 65)
-
-}
-
-#IslHead
-{
-    width: 412;
-    height: 120;
-    color: White;
+#IslHead, #IslHead2, #IslHead3, #IslHead4, #IslHead5 {
+    width: 412px;
+    height: 190px;
+    color: white;
     font-size: 36px;
     font-family: 'sodoSans', sans-serif;
-    margin-bottom: 250px;
-    
+    margin-bottom: 20px; 
 }
 
-.newCoff
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 220px;
-    margin-left: -483px;
-    border-radius:10px;
-    box-shadow: 2px 0.2px 20px rgba(0, 1, 0, 0.2);
+.island-image {
+   
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 15px; 
+    border-radius: 10px;
 }
 
-#NewFlavour
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 220px;
-    margin-left: -983px;
-    border-radius:10px;
-    box-shadow: 2px 0.2px 20px rgba(0, 1, 0, 0.2);
-}
+
