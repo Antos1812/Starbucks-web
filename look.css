@@ -1,15 +1,4 @@
 
-<<<<<<< Updated upstream
-
-body
-{
-   background-color: white;
-   display: flex;
-}
-
-#StarLogo
-{
-=======
 body {
     background-image: radial-gradient(circle, #ffffff,#ebf0ec) ;
     display: flex;
@@ -17,7 +6,7 @@ body {
 
 /*Starbucks Logo*/
 #StarLogo {
->>>>>>> Stashed changes
+
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -31,10 +20,6 @@ body {
 
 
 
-<<<<<<< Updated upstream
-#island1
-{
-=======
 .itemB:hover {
     background-color: rgba(0, 98, 65, 0.205);
 }
@@ -87,7 +72,6 @@ body {
 
 .Islands {
     box-shadow: 24px 20px 17px rgba(0, 0, 0, 0.5);
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,18 +86,6 @@ body {
 
 }
 
-<<<<<<< Updated upstream
-#IslHead
-{
-    width: 412;
-    height: 120;
-    color: White;
-    font-size: 36px;
-    font-family: 'sodoSans', sans-serif;
-    margin-bottom: 250px;
-    
-}
-=======
 /*class for Islands Buttons*/
 .islButton {
     --animateProps: opacity, color, background, border-color;
@@ -160,4 +132,3 @@ body {
 }
 
 
->>>>>>> Stashed changes
