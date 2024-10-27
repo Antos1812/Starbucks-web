@@ -1,4 +1,5 @@
 
+<<<<<<< Updated upstream
 
 body
 {
@@ -8,6 +9,15 @@ body
 
 #StarLogo
 {
+=======
+body {
+    background-image: radial-gradient(circle, #ffffff,#ebf0ec) ;
+    display: flex;
+}
+
+/*Starbucks Logo*/
+#StarLogo {
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -21,8 +31,63 @@ body
 
 
 
+<<<<<<< Updated upstream
 #island1
 {
+=======
+.itemB:hover {
+    background-color: rgba(0, 98, 65, 0.205);
+}
+
+.itemB:last-child {
+    margin-right: 0;            
+}
+
+.itemT {
+    margin-top: 1px;
+}
+
+.IslandMore {
+    width: 108px;
+    height: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    display: none; 
+}
+
+/*Islands more specific*/
+.IsMore {
+    height: 175px;
+    margin-top: 50px;
+    margin-left: -59px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'sodoSans', sans-serif;
+    font-size: 18px;
+    background-color: rgb(142, 151, 142);
+    box-shadow: 0.4px 0px 11px rgb(142, 151, 142);
+}
+
+.IsMore h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+
+.Islands {
+    box-shadow: 24px 20px 17px rgba(0, 0, 0, 0.5);
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +102,7 @@ body
 
 }
 
+<<<<<<< Updated upstream
 #IslHead
 {
     width: 412;
@@ -47,3 +113,51 @@ body
     margin-bottom: 250px;
     
 }
+=======
+/*class for Islands Buttons*/
+.islButton {
+    --animateProps: opacity, color, background, border-color;
+    --originalWidth: 640px;
+    inline-size: 100%;
+    block-size: 60px;
+    white-space: nowrap;
+    border-radius: 100px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    transition: background-color 0.43s;
+    transition-timing-function: ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+    font-family: 'sodoSans', sans-serif;
+    box-shadow: 0.4px 0px 8px rgb(255, 255, 255);
+}
+
+.islButton:hover {
+    background-color: rgb(142, 151, 142);
+}
+
+#IslHead, #IslHead2, #IslHead3, #IslHead4, #IslHead5 {
+    width: 412px;
+    height: 190px;
+    color: white;
+    font-size: 36px;
+    font-family: 'sodoSans', sans-serif;
+    margin-bottom: 20px; 
+}
+
+/*class for Images on islands*/
+.island-image {
+   
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 15px; 
+    border-radius: 10px;
+}
+
+
+>>>>>>> Stashed changes
