@@ -1,37 +1,57 @@
-
-<!--Main web-->
 <!DOCTYPE html>
-
 <html lang="pl">
 
-    <head>
-        
-        <title>Starbucks</title>
-        <meta charset="UTF-8">
+<head>
+    <title>Starbucks</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="look.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div id="StarLogo">
+        <img class="SLogo" src="StarLogo.png"/>
+    </div>
+    <div class="headT">
+        <button class="itemB" onclick="navigateToMain('file:///C:/Users/User/Desktop/www/StarbucksWeb/Web.html')"><h2 class="itemT">Menu</h2></button>
+        <button class="itemB"><h2 class="itemT">Coffee</h2></button>
+        <button class="itemB"><h2 class="itemT">Cups</h2></button>
+        <button class="itemB">
+            <h2 class="itemT" onmouseover="openMore()" onmouseleave="closeMore()">More</h2>
+        </button>
+    </div>
+    <div class="IsMore">
+        <h4 class="IslandMore">Delivery</h4>
+        <h4 class="IslandMore">Career</h4>
+    </div>
 
-        <link rel="stylesheet" href="look.css" />
+    <div class="container">
+        <div id="island1" class="Islands">
 
-
-    </head>
-
-    <body>
-
-
-        <div id="StarLogo">
-            <img class="SLogo" src="C:\Users\User\Desktop\www\StarbucksWeb\StarLogo.png"/>
-        </div>
-        <div id="island1">
             <h2 id="IslHead">New flavour!</h2>
+            <img class="island-image" id="NewFlavour" src="NewFlavour.jpg" width="383" height="236">
+            <button class="islButton" onclick="navigateTo('https://www.starbucks.pl/en/promo-napoje')"><h3>Check it!</h3></button>
         </div>
-
-
-        <script>
-
-            
-
-        </script>
-
-        
-    </body>
-
+        <div id="island2" class="Islands">
+            <h2 id="IslHead2">New Coffee!</h2> 
+            <img class="island-image" src="NewCoffee.jpg" width="383" height="236">          
+            <button class="islButton" onclick="navigateTo('https://www.starbucks.pl/en/promo-kawa')"><h3>Check this out!</h3></button>
+        </div>
+        <div id="island3" class="Islands">
+            <h2 id="IslHead3">Starbucks Delivery</h2>
+            <img class="island-image" id="NewFlavour2" src="delivery_new.png" width="383" height="236">
+            <button class="islButton" onclick="navigateTo('https://www.starbucks.com/stores-and-ordering/delivery/')"><h3>Order from</h3></button>
+        </div>
+        <div id="island4" class="Islands">
+            <h2 id="IslHead4">About us</h2>
+            <img class="island-image" src="about_us_new.png" width="383" height="236">          
+            <button class="islButton" onclick="navigateTo('https://www.starbucks.com/about-us/')"><h3>Find out more</h3></button>
+        </div>
+        <div id="island4" class="Islands">
+            <h2 id="IslHead5">Starbucks Stories</h2>
+            <img class="island-image" src="StarStories.png" width="383" height="236">          
+            <button class="islButton" onclick="navigateTo('https://stories.starbucks.com/')"><h3>Find out more</h3></button>
+        </div>         
+    </div>
+      
+</body>
 </html>
