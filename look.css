@@ -144,4 +144,31 @@ body {
     border-radius: 10px;
 }
 
+#SettingsB
+{
+    margin-right: 10px;
+    width: 36px;
+    height: 31px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.43s;
+}
+
+#Settings:hover
+{
+    background-color:rgb(153, 153, 153);
+}
+
+.SettingsIcon
+{
+    width:30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
 
