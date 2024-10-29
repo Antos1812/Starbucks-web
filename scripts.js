@@ -1,20 +1,33 @@
-var MoreIsland = document.getElementsByClassName("IslandMore")[0];
+document.addEventListener("DOMContentLoaded", function() {
+    var MoreIsland = document.getElementsByClassName("IslandMore")[0];
 
-function navigateToMain(url) {
-    window.open(url);
-    console.log("Przejście na stronę");
-}
+    document.getElementById("starbucksSearchForm").addEventListener("submit", function(event){
+        event.preventDefault();
+        const location = document.getElementById("InputId").value;
+        const query = `https://www.google.com/maps/search/Starbucks+${encodeURIComponent(location)}`;
+        window.open(query, "_blank");
+    });
 
-function navigateTo(url) {
-    window.location.href = url;
-}
+    function navigateToMain(url) {
+        window.open(url);
+        console.log("Przejście na stronę");
+    }
 
-function openMore() {
-    MoreIsland.style.display = "block";
-    console.log("Opening More section");
-}
+    function navigateTo(url) {
+        window.location.href = url;
+    }
 
-function closeMore() { 
-    MoreIsland.style.display = "none";
-    console.log("Closing More section");
-}
+    function openMore() {
+        if (MoreIsland) {
+            MoreIsland.style.display = "block";
+            console.log("Opening More section");
+        }
+    }
+
+    function closeMore() { 
+        if (MoreIsland) {
+            MoreIsland.style.display = "none";
+            console.log("Closing More section");
+        }
+    }
+});

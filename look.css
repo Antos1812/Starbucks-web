@@ -26,6 +26,40 @@ body {
     font-size: 22px;
 }
 
+.SearchBar
+{
+    margin-left:16px;
+    margin-top:1px;
+}
+
+#SearchId
+{
+    margin-top: 1px;
+    margin-bottom:0px;
+    margin-left: 10px;
+}
+
+#SubmitId
+{
+    margin-inline: 58px;
+    background-color: rgba(0, 98, 65, 0.205);
+    border-radius: 8px;
+    border-color:rgba(255, 255, 255, 0);
+    transition: background-color 0.43s;
+}
+
+#SubmitId:hover
+{
+    background-color:rgba(39, 203, 148, 0.175);
+}
+
+#InputId
+{
+    margin-bottom:2px;
+    border-radius:8px;
+    border-color:rgba(255, 255, 255, 0);
+}
+
 .itemB {
     width: 70px;
     height: 30px;
@@ -122,7 +156,7 @@ body {
     min-inline-size: 460px;
     height: 365.52px;
     padding: 25px;
-    margin-top: 80px;
+    margin-top: 170px;
     border-radius: 10px;
     background-color: rgb(0, 98, 65);
 }

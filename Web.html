@@ -12,12 +12,21 @@
         <img class="SLogo" src="StarLogo.png"/>
     </div>
     <div class="headT">
-        <button class="itemB" onclick="navigateToMain('file:///C:/Users/User/Desktop/www/StarbucksWeb/Web.html')"><h2 class="itemT">Menu</h2></button>
+        <button class="itemB" onclick="navigateToMain('file:///C:/Users/User/Desktop/www/StarbucksWeb/Web.html')">
+            <h2 class="itemT">Menu</h2>
+        </button>
         <button class="itemB"><h2 class="itemT">Coffee</h2></button>
         <button class="itemB"><h2 class="itemT">Cups</h2></button>
         <button class="itemB">
             <h2 class="itemT" onmouseover="openMore()" onmouseleave="closeMore()">More</h2>
         </button>
+        <div class="SearchBar">
+            <h2 class="headT" id="SearchId">Search for Cafe</h2>
+            <form id="starbucksSearchForm" target="_blank">
+                <input id="InputId" type="text" placeholder="Type a city" required>
+                <button id="SubmitId" type="submit">Search</button>
+            </form>
+        </div>
     </div>
 
     <div class="IsMore">
