@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("starbucksSearchForm").addEventListener("submit", function(event){
         event.preventDefault();
         const location = document.getElementById("InputId").value;
+
+        const regex = /^[A-Za-z\s]+$/;
+        if (!regex.test(location)) {
+            alert("Please type only letters.");
+            return;
+        }
+
         const query = `https://www.google.com/maps/search/Starbucks+${encodeURIComponent(location)}`;
         window.open(query, "_blank");
     });
