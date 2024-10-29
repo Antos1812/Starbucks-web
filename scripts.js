@@ -14,27 +14,27 @@ document.addEventListener("DOMContentLoaded", function() {
         const query = `https://www.google.com/maps/search/Starbucks+${encodeURIComponent(location)}`;
         window.open(query, "_blank");
     });
-
-    function navigateToMain(url) {
-        window.open(url);
-        console.log("Przejście na stronę");
-    }
-
-    function navigateTo(url) {
-        window.location.href = url;
-    }
-
-    function openMore() {
-        if (MoreIsland) {
-            MoreIsland.style.display = "block";
-            console.log("Opening More section");
-        }
-    }
-
-    function closeMore() { 
-        if (MoreIsland) {
-            MoreIsland.style.display = "none";
-            console.log("Closing More section");
-        }
-    }
 });
+
+function navigateToMain(url) {
+    window.open(url);
+    console.log("Przejście na stronę");
+}
+
+function navigateTo(url) {
+    window.location.href = url;
+}
+
+function openMore() {
+    if (MoreIsland) {
+        MoreIsland.style.display = "block";
+        console.log("Opening More section");
+    }
+}
+
+function closeMore() { 
+    if (MoreIsland) {
+        MoreIsland.style.display = "none";
+        console.log("Closing More section");
+    }
+}
