@@ -71,6 +71,59 @@ body {
     transform: scale(1.1);
 }
 
+.ExtraBar {
+    width: 245px;
+    height: 1018px;
+    margin-top: 173px;
+    margin-left: 22px;
+    border-radius: 10px;
+    background-color: rgb(0, 98, 65);
+    position: absolute;
+    left: 20;
+    transition: background-color 0.3s, transform 0.5s;
+}
+
+.ExtraBar:hover{
+    background-color:rgb(1, 124, 83);
+    transform:scale(1.029);
+}
+
+#TitleExBar{
+    font-family: 'sodoSans', sans-serif;
+    font-size: 26px;
+    color: white;
+    margin-left: 37px;
+    transition: transform 0.38s;
+}
+
+#TitleExBar:hover{
+    transform:scaleX(1.07);
+}
+
+.scrollable-panel{
+    width:200px;
+    height:400px;
+    overflow-y:auto;
+    border-radius:10px;
+    margin-left:10px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:rgb(8, 112, 78);
+    transition: background-color 0.38s, transform 0.28s;
+}
+
+.scrollable-panel:hover{
+    background-color: rgb(6, 139, 95);
+    transform:scaleY(1.022);
+}
+
+.TextScrollPanel{
+    font-family: 'sodoSans', sans-serif;
+    font-size:20px;
+    color:white;
+    margin-top:10px;
+}
+
 .itemB {
     width: 70px;
     height: 30px;
