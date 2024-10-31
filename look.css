@@ -54,7 +54,6 @@ body {
 #SubmitId:hover
 {
     background-color:rgba(39, 203, 148, 0.175);
-    transform: scale(1.1);
 }
 
 #InputId
@@ -218,6 +217,7 @@ body {
     color: black;
     background-color: white;
     transition: background-color 0.43s, transform 0.5s;
+    transition: background-color 0.43s, transform 0.5s;
     transition-timing-function: ease-in-out;
     display: inline-flex;
     align-items: center;
@@ -232,6 +232,41 @@ body {
 .islButton:hover {
     background-color: rgb(142, 151, 142);
     transform: scaleX(1.096);
+}
+
+.islButton1
+{
+    --animateProps: opacity, color, background, border-color;
+    --originalWidth: 640px;
+    inline-size: 100%;
+    block-size: 60px;
+    white-space: nowrap;
+    border-radius: 100px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    transition: background-color 0.43s, transform 0.5s;
+    transition-timing-function: ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+    font-family: 'sodoSans', sans-serif;
+    box-shadow: 0.4px 0px 8px rgb(255, 255, 255);
+    animation: pulsate 2s infinite;
+}
+
+.islButton1:hover {
+    background-color: rgb(238, 189, 84);
+    transform: scale(1.08);
+}
+
+@keyframes pulsate {
+    0% { transform: scale(1); };
+    50% { transform: scale(1.066); };
+    100% { transform: scale(1); };
 }
 
 .islButton1
