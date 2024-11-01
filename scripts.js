@@ -38,3 +38,12 @@ function closeMore() {
         console.log("Closing More section");
     }
 }
+
+
+let coffee1 = 0;
+function addCoffee(){
+
+    coffee1 += 1;
+
+    document.getElementById("valueCoffee").innerHTML = coffee1;
+}
