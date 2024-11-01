@@ -92,7 +92,9 @@ body {
     font-family: 'sodoSans', sans-serif;
     font-size: 26px;
     color: white;
+
     margin-left: 53px;
+
     transition: transform 0.38s;
 }
 
@@ -116,6 +118,7 @@ body {
     background-color: rgb(6, 139, 95);
     transform:scaleY(1.022);
 }
+
 
 #h5Text{
     font-family: 'sodoSans', sans-serif;
@@ -199,6 +202,7 @@ body {
 
 #valueCoffee:hover{
     transform: scale(1.1);
+
 }
 
 .itemB {
