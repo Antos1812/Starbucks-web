@@ -1,6 +1,6 @@
 
 body {
-    background-image: radial-gradient(circle, #ffffff,#ebf0ec) ;
+    background-image: radial-gradient(circle, #ffffff,#f5f3f3) ;
     display: flex;
 }
 
@@ -534,4 +534,63 @@ body {
 
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropbtn {
+    background-color: rgb(228, 228, 228);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#dropbtn:hover {
+    background-color: #eeeeee; 
+    transform: scale(1.05); 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-top: 8px;
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: opacity 0.48s ease, transform 0.5s ease;
+    opacity: 0; 
+    transform: translateY(-13px); 
+}
+
+.dropdown-content.show {
+    display: block; 
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    transition: background-color 0.3s, transform 0.5s;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    transform: scale(1.127);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1; 
+}
 
