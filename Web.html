@@ -35,46 +35,52 @@
         <div class="scrollable-panel">   
 
             <div class="dropdown">
-                <button class="ButtonScrollPanel" id="dropbtn" onclick="addCoffee()">
+                <button class="ButtonScrollPanel" id="dropbtn" onclick="addCoffee();  addCoffeeText(this, 'Americano');">
                     <p class="TextScrollPanel">Americano</p></button>                
                 <div class="dropdown-content">
-                    <a href="#">Brazil</a>
-                    <a href="#">Ethiopia</a>
-                    <a href="#">Kenya</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Americano');">Brazil</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Americano');">Ethiopia</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Americano');">Kenya</a>
                 </div>
             </div>
 
             <div class="dropdown">
-                <button class="ButtonScrollPanel" id="dropbtn" onclick="addCoffee()">
+                <button class="ButtonScrollPanel" id="dropbtn" onclick="addCoffee(); addCoffeeText(this, 'Cappuccino');">
                     <p class="TextScrollPanel">Cappuccino</p></button>               
                 <div class="dropdown-content">
-                    <a href="#">Soy milk</a>
-                    <a href="#">Almond milk</a>
-                    <a href="#">Coco milk</a>
-                    <a href="#">Rice milk</a>
-                    <a href="#">Oat milk</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Cappuccino');">Soy milk</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Cappuccino');">Almond milk</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Cappuccino');">Coco milk</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Cappuccino');">Rice milk</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Cappuccino');">Oat milk</a>
                 </div>
             </div>
+
            
             <div class="dropdown">
-                <button class="ButtonScrollPanel" onclick="addCoffee()">
+                <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this, 'Espresso');">
                     <p class="TextScrollPanel">Espresso</p></button>          
                 <div class="dropdown-content">
-                    <a href="#">Double</a>
-                    <a href="#">Roast</a>
-                    <a href="#">Blonde</a>
-                    <a href="#">Decaf</a>
-                    <a href="#">Single Origin "Sezon"</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Espresso');">Double</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Espresso');">Roast</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Espresso');">Blonde</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Espresso');">Decaf</a>
+                    <a href="#" onclick="addCoffee();  addCoffeeText(this, 'Espresso');">Single Origin "Sezon"</a>
                 </div>
             </div>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanel">Latte</p></button>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanel">Flat White</p></button>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanel">Macchiato</p></button>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanelIced">Iced Coffee</p></button>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanel">Frappé</p></button>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanel">Cold Brew</p></button>
-            <button class="ButtonScrollPanel" onclick="addCoffee()"><p class="TextScrollPanelPumpkin">Pumpkin Latte</p></button>               
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanel">Latte</p></button>
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanel">Flat White</p></button>
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanel">Macchiato</p></button>
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanelIced">Iced Coffee</p></button>
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanel">Frappé</p></button>
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanel">Cold Brew</p></button>
+            <button class="ButtonScrollPanel" onclick="addCoffee();  addCoffeeText(this);"><p class="TextScrollPanelPumpkin">Pumpkin Latte</p></button>               
         </div>
+
+        <div class="scrollable-panelList">
+            <div id="textContainer"></div>
+        </div>
+        
         <button id="buyButton"><p id="buyText">Buy</p></button>
     </div>
 

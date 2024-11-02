@@ -633,3 +633,29 @@ body {
     opacity: 1; 
 }
 
+#textContainer{
+    margin-top: 10px;
+    padding:5px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.displayCoffeeText{
+    font-family: 'sodoSans', sans-serif;
+    font-size: 16px;
+    color:white;
+    margin: 5px 0;
+}
+
+.scrollable-panelList{
+    width:200px;
+    height:100px;
+    overflow-y:auto;
+    position: absolute;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-left:10px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:rgb(8, 112, 78);
+}
