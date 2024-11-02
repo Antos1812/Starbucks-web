@@ -48,6 +48,18 @@ function addCoffee(){
     document.getElementById("valueCoffee").innerHTML = coffee1;
 }
 
+function addCoffeeText(button, coffeeType){
+    const ExtrasType = button.innerText;
+    const fullOrderText = coffeeType + " + " + ExtrasType;
+    const additionalText = "1x - ";
+    
+    const newTextElement = document.createElement("p");
+    newTextElement.innerText = additionalText + fullOrderText;
+    newTextElement.classList.add("displayCoffeeText");
+
+    document.getElementById("textContainer").appendChild(newTextElement);
+}
+
 const dropdown = document.querySelector('.dropdown');
 const dropdownContent = document.querySelector('.dropdown-content');
 const dropbtn = document.querySelector('.dropbtn');
