@@ -47,3 +47,15 @@ function addCoffee(){
 
     document.getElementById("valueCoffee").innerHTML = coffee1;
 }
+
+const dropdown = document.querySelector('.dropdown');
+const dropdownContent = document.querySelector('.dropdown-content');
+const dropbtn = document.querySelector('.dropbtn');
+
+dropbtn.addEventListener('mouseover', function() {
+    dropdownContent.classList.add('show');
+});
+
+dropdown.addEventListener('mouseleave', function() {
+    dropdownContent.classList.remove('show');
+});
