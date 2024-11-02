@@ -1,6 +1,6 @@
 
 body {
-    background-image: radial-gradient(circle, #ffffff,#f5f3f3) ;
+    background-image: radial-gradient(circle, #ffffff,#ffffff) ;
     display: flex;
 }
 
@@ -10,6 +10,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    transition: transform 0.39s ease;
+}
+
+#StarLogo:hover{
+    transform: scaleY(1.256);
 }
 
 
@@ -531,7 +536,41 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    transition: transform 0.39s ease;
 
+}
+
+.SettingsIcon:hover{
+    transform: scaleY(1.265);
+}
+
+
+
+#JoinBtn{
+    width: 190px;
+    height: 25px;
+    margin-top: 15px;
+    background-color:rgb(17, 17, 24);
+    border-radius:10px;
+    transition: transform 0.39s ease, background-color 0.39s ease-in;
+    cursor: pointer;
+}
+
+#JoinBtn:hover{
+    transform: scaleX(1.08);
+    background-color:rgb(25, 25, 36);
+}
+
+#JoinText{
+    display: inline;
+    font-family: 'sodoSans', sans-serif;
+    font-size:18px;
+    color:white;
+    transition: font-size 0.39s ease;
+}
+
+#JoinText:hover{
+    font-size: 19px;
 }
 
 .dropdown {
