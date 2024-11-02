@@ -7,11 +7,12 @@ body {
 
 /*Starbucks Logo*/
 #StarLogo {
-
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
+
+
 
 .SLogo {
     width: 57.7px;
@@ -31,6 +32,8 @@ body {
     margin-left:16px;
     margin-top:1px;
 }
+
+
 
 #SearchId
 {
@@ -71,6 +74,8 @@ body {
     transform: scale(1.1);
 }
 
+
+
 .ExtraBar {
     width: 245px;
     height: 1018px;
@@ -88,6 +93,8 @@ body {
     transform:scale(1.029);
 }
 
+
+
 #TitleExBar{
     font-family: 'sodoSans', sans-serif;
     font-size: 26px;
@@ -99,6 +106,8 @@ body {
 #TitleExBar:hover{
     transform:scaleX(1.07);
 }
+
+
 
 .scrollable-panel{
     width:200px;
@@ -117,6 +126,8 @@ body {
     transform:scaleY(1.022);
 }
 
+
+
 #h5Text{
     font-family: 'sodoSans', sans-serif;
     font-size:20px;
@@ -125,12 +136,40 @@ body {
     margin-bottom: 10px;
 }
 
+
+
 .TextScrollPanel{
     font-family: 'sodoSans', sans-serif;
     font-size:20px;
     color:rgb(0, 0, 0);
     margin-top:-18px;
     padding-top: 15px;
+}
+
+.TextScrollPanelPumpkin{
+    font-family: 'sodoSans', sans-serif;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top:-18px;
+    padding-top: 15px;
+    transition: color 0.47s ease;
+}
+
+.TextScrollPanelPumpkin:hover{
+    color:rgb(255, 146, 73);
+}
+
+.TextScrollPanelIced{
+    font-family: 'sodoSans', sans-serif;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top:-18px;
+    padding-top: 15px;
+    transition: color 0.47s ease;
+}
+
+.TextScrollPanelIced:hover{
+    color:rgb(66, 195, 255);
 }
 
 .ButtonScrollPanel{
@@ -155,6 +194,8 @@ body {
     background-color:white;
     box-shadow: 9px 10px 25px rgba(134, 134, 134, 0.5);
 }
+
+
 
 #buyButton{
     width: 80px;
@@ -201,6 +242,8 @@ body {
     transform: scale(1.1);
 }
 
+
+
 .itemB {
     width: 70px;
     height: 30px;
@@ -236,8 +279,6 @@ body {
     color: black;
     display: none; 
 }
-
-
 
 .itemB:hover {
     background-color: rgba(0, 98, 65, 0.205);
@@ -440,6 +481,7 @@ body {
 }
 
 
+
 #IslHead, #IslHead2, #IslHead3, #IslHead4, #IslHead5 {
     width: 412px;
     height: 190px;
@@ -449,8 +491,9 @@ body {
     margin-bottom: 20px;
 }
 
-/*class for Images on islands*/
 
+
+/*class for Images on islands*/
 .island-image {
    
     max-width: 100%;
@@ -458,6 +501,8 @@ body {
     margin-bottom: 15px; 
     border-radius: 10px;
 }
+
+
 
 #SettingsB
 {
@@ -476,6 +521,8 @@ body {
 {
     background-color:rgb(153, 153, 153);
 }
+
+
 
 .SettingsIcon
 {
