@@ -649,7 +649,7 @@ body {
 
 .scrollable-panelList{
     width:200px;
-    height:100px;
+    height:200px;
     overflow-y:auto;
     position: absolute;
     border-radius:10px;
@@ -658,4 +658,22 @@ body {
     padding-left:10px;
     padding-right:10px;
     background-color:rgb(8, 112, 78);
+}
+
+#CoffeeCountText{
+    position: absolute;
+    font-family: 'sodoSans', sans-serif;
+    font-size: 16px;
+    color:white;
+    margin-top: 340px;
+    margin-left: 10px;
+}
+
+#priceContainer{
+    position: absolute;
+    font-family: 'sodoSans', sans-serif;
+    font-size: 16px;
+    color:white;
+    margin-top: 320px;
+    margin-left: 10px;
 }

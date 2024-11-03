@@ -48,16 +48,33 @@ function addCoffee(){
     document.getElementById("valueCoffee").innerHTML = coffee1;
 }
 
-function addCoffeeText(button, coffeeType){
+let totalPrice = 0;
+function addCoffeeText(button, coffeeType, extrasType){
     const ExtrasType = button.innerText;
-    const fullOrderText = coffeeType + " + " + ExtrasType;
+    const fullOrderText = coffeeType + " + " + extrasType;
     const additionalText = "1x - ";
+
+    totalPrice += extrasType;
     
     const newTextElement = document.createElement("p");
-    newTextElement.innerText = additionalText + fullOrderText;
+    newTextElement.innerText = additionalText + fullOrderText + " -$" + extrasType.toFixed(2);
     newTextElement.classList.add("displayCoffeeText");
 
     document.getElementById("textContainer").appendChild(newTextElement);
+    updateTotalPrice();
+}
+
+function updateTotalPrice(){
+    const priceDisplay = document.getElementById("totalPrice")
+    if (!priceDisplay){
+        const newPriceDisplay = document.createElement("p");
+        newPriceDisplay.id = "totalPrice";
+        newPriceDisplay.innerText = "Total Price: $" + totalPrice.toFixed(2);
+        document.getElementById("priceContainer").appendChild(newPriceDisplay);
+    } else {
+        priceDisplay.innerText = "Total Price: $" + totalPrice.toFixed(2);
+    }
+    
 }
 
 const dropdown = document.querySelector('.dropdown');
