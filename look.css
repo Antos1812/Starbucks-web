@@ -55,7 +55,7 @@ body {
     background-color: rgba(0, 98, 65, 0.205);
     border-radius: 8px;
     border-color:rgba(255, 255, 255, 0);
-    transition: background-color 0.43s, transform 0.2s ease;
+    transition: background-color 0.43s ease-out, transform 0.27s ease-in;
     font-family: 'sodoSans', sans-serif;
     font-size:15px;
 }
@@ -63,6 +63,8 @@ body {
 #SubmitId:hover
 {
     background-color:rgba(39, 203, 148, 0.175);
+    transform: scaleY(1.18);
+    transform: scaleX(1.070);
 }
 
 #InputId
